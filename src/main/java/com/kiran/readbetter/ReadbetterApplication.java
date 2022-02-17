@@ -1,7 +1,7 @@
 package com.kiran.readbetter;
 
 import com.kiran.readbetter.author.AuthorRepository;
-import connection.DataStaxAstraProperties;
+import com.kiran.readbetter.connection.DataStaxAstraProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

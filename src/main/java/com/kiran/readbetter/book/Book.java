@@ -91,4 +91,17 @@ public class Book {
     public void setAuthorIds(List<String> authorIds) {
         this.authorIds = authorIds;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", publishDate=" + publishDate +
+                ", coverIds=" + coverIds +
+                ", authorNames=" + authorNames +
+                ", authorIds=" + authorIds +
+                '}';
+    }
 }

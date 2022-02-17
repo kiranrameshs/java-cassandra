@@ -1,4 +1,4 @@
-package connection;
+package com.kiran.readbetter.connection;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

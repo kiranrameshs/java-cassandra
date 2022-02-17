@@ -5,7 +5,7 @@ import com.kiran.readbetter.author.Author;
 import com.kiran.readbetter.author.AuthorRepository;
 import com.kiran.readbetter.book.Book;
 import com.kiran.readbetter.book.BookRepository;
-import connection.DataStaxAstraProperties;
+import com.kiran.readbetter.connection.DataStaxAstraProperties;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -150,9 +150,9 @@ public class readBetterDataLoaderApplication {
     @PostConstruct
     public void start() {
         System.out.println("authorDataDumpLocation: " + authorDataDumpLocation);
-        initAuthor();
+//        initAuthor();
         System.out.println("Persist author data dump complete");
-        initWorks();
+//        initWorks();
         System.out.println("Persist works data dump complete");
     }
 
